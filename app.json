@@ -1,0 +1,12 @@
+{
+  "name": "Taskli",
+  "displayName": "Taskli",
+  "expo": {
+    "name": "Taskli",
+    "slug": "Taskli",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
