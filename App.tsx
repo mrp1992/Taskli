@@ -1,10 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {View, StyleSheet} from 'react-native';
+import {Header} from "./src/header/Header";
+import {Dashboard} from "./src/dashboard/Dashboard";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Header />
+      <Dashboard />
     </View>
   );
 }
@@ -12,8 +15,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginBottom: 10,
   },
 });
